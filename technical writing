@@ -1,0 +1,11 @@
+The Color Scale Problem in Genomics Nobody Talks About:
+Color plays a central role in genomic data visualization, especially in heatmaps and expression plots. However, poor color choices can easily mislead interpretation and exclude parts of the scientific audience.
+In genomics, color is often treated as an aesthetic detail rather than a scientific decision, which creates serious problems.
+
+Rainbow color scales are a common example. Although visually appealing, they are perceptually misleading, creating artificial boundaries and exaggerating differences that do not reflect true biological variation.
+
+Colorblindness is another frequently ignored factor. Many figures rely on red–green contrasts to show up- and down-regulation, making them difficult or impossible to interpret for individuals with color vision deficiencies. 
+This reduces accessibility for reviewers, collaborators, and clinicians with color blindness, weakening the effectiveness of scientific communication.
+
+Misleading gradients also contribute to misinterpretation when color scales lack a meaningful reference point or exaggerate minor expression changes. 
+Without careful design, color can distort both the magnitude and direction of biological effects.
