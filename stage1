@@ -1,0 +1,20 @@
+# a function to calculate GC%
+gc_percent <- function(seq) {
+  # converts the sequence to uppercase to handle both cases
+  seq <- toupper(seq)
+  
+  # splits sequence into individual letters
+  letters <- strsplit(seq, "")[[1]]
+  
+  # counts the number of Gs and Cs
+  gc_count <- sum(letters %in% c("G", "C"))
+  
+  # calculates GC% and return
+  (gc_count / length(letters)) * 100
+}
+
+# examples
+gc_percent("GCATTTAT")  
+gc_percent("gcaTTTAT")   
+gc_percent("GGccAA")
+
